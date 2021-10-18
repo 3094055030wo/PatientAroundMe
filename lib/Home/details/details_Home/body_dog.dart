@@ -10,7 +10,7 @@ Container dog(BuildContext context, double scale, Size size) {
         Column(
           children: [
             Text(
-              "写代码我们是认真的",
+              "一切取决于你自己，你应该更乐观一些",
               style: Theme.of(context)
                   .textTheme
                   .apply(fontSizeFactor: 1.5)
@@ -22,8 +22,8 @@ Container dog(BuildContext context, double scale, Size size) {
             Container(
               constraints: BoxConstraints(maxWidth: size.width / 3),
               child: Text(
-                "程序员问科比：“你为什么这么成功？”科比：“你见过凌晨四点的洛杉矶吗？”"
-                "程序员：“见过啊，一般那个时候我还在写代码，怎么了？”科比：“饿...”",
+                "凡事只求尽力，不要完美主义，因为很多结果的呈现，并非自己可以决定"
+                "让女人念念不忘的是感情，让男人念念不忘的是感觉。感情随着时间沉淀，感觉随着时间消失",
                 style: Theme.of(context)
                     .textTheme
                     .apply(fontSizeFactor: 1.2)

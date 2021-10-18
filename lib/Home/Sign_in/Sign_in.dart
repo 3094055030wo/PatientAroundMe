@@ -157,7 +157,7 @@ class _Logoing extends State<Logo> {
     return Align(
       alignment: Alignment.center,
       child: Padding(
-        padding: EdgeInsets.only(top: 10.0),
+        padding: EdgeInsets.only(top: 10.0, bottom: 10),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -168,11 +168,7 @@ class _Logoing extends State<Logo> {
                 style: TextStyle(color: Colors.blue),
               ),
               onTap: () {
-                //TODO 跳转到注册页面
                 _Register();
-                // Navigator.of(context).pushNamed('/zuche');
-                // print('去注册');
-                // Navigator.pop(context);
               },
             ),
           ],

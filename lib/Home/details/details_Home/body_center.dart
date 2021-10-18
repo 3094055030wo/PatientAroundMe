@@ -10,7 +10,7 @@ Container superCode(Size size, double scale, BuildContext context) {
           height: 40 * scale,
         ),
         Text(
-          "秃如其来",
+          "放松心情",
           style:
               Theme.of(context).textTheme.apply(fontSizeFactor: 1.2).subtitle1,
         ),
@@ -20,9 +20,7 @@ Container superCode(Size size, double scale, BuildContext context) {
         Container(
           constraints: BoxConstraints(maxWidth: size.width - 100),
           child: Text(
-            "为了一个项目，为了一个新需求，硬是差点把自己培养成“时间管理大师”。"
-            "假期是个什么东西？能吃么？看不是不是资深程序员就看头发还剩多少。"
-            "当他头发掉光之时就是程序功力大成之时。",
+            "没人能将你打败，能打到你的只有你自己",
             style: Theme.of(context)
                 .textTheme
                 .apply(fontSizeFactor: 1.2)

@@ -49,7 +49,7 @@ Align buildabout2(BuildContext context, String title, String url) {
 Container about(double scale, BuildContext context, Size size) {
   return Container(
     color: Colors.grey.withOpacity(0.1),
-    padding: EdgeInsets.only(top: 80 * scale),
+    padding: EdgeInsets.only(top: 40 * scale, bottom: 40 * scale),
     child: Column(
       children: [
         Row(
@@ -94,7 +94,7 @@ Container about(double scale, BuildContext context, Size size) {
               children: [
                 Image.asset(
                   "image/Home_6.jpg",
-                  width: size.width / 10,
+                  width: size.width / 5,
                   fit: BoxFit.fitWidth,
                 ),
               ],
@@ -102,7 +102,7 @@ Container about(double scale, BuildContext context, Size size) {
           ],
         ),
         SizedBox(
-          height: 80 * scale,
+          height: 40 * scale,
         ),
         Text(
           "Patient Around Me",
